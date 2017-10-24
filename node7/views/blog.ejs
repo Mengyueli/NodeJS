@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Website</title>
+	<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+	<% include ../public/nav.ejs %>
+	<!-- 内部样式表 -->
+	<h1>这是第<%= id %> 篇博客</h1>
+	<!-- <p>
+		<strong>标题：</strong><%= data.title %>
+		<strong>内容：</strong><%= data.body %>
+		<strong>作者：</strong><%= data.author %>
+	</p> -->
+	<ul>
+		<!-- 遍历有逻辑处理就没有=，没有逻辑处理就有 = -->
+		<% data.forEach(function(sbqitem){%>
+		<li>
+			<strong>标题：</strong><%= sbqitem.title %>
+			<strong>内容：</strong><%= sbqitem.body %>
+			<strong>作者：</strong><%= sbqitem.author %>
+		</li>
+		<% }) %>
+	</ul>
+</body>
+</html>
