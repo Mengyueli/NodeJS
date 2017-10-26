@@ -22,7 +22,13 @@
 		npm run build 运行	
 	05.配置文件
 	建立webpack.config.js（文件名可以被自动识别）
-	进行文件配置
-	
+	进行文件配置和模块配置以及第三方插件配置
+	模块：babel
+		*1.安装babel
+		cnpm install babel-core babel-loader babel-preset-es2015 --save-dev 
+		*2.文件配置（webpack.config.js）
+		模块配置
+
+
 
 
