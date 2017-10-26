@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "Jenry1",
+      "phone": "13651322451",
+      "email": "henry@gmail.com",
+      "age": "30",
+      "id": 1,
+      "companyId": 1
+    },
+    {
+      "name": "Jenry2",
+      "phone": "13651322451",
+      "email": "henry@gmail.com",
+      "age": "30",
+      "id": 2,
+      "companyId": 2
+    },
+    {
+      "name": "Miaojie",
+      "phone": "13651322451",
+      "email": "henry@gmail.com",
+      "age": "30",
+      "id": 3,
+      "companyId": 3
+    },
+    {
+      "name": "Youzhou",
+      "phone": "123",
+      "email": "henry@gmail.com",
+      "age": "30",
+      "id": 4,
+      "companyId": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Apple is apple"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "description": "Microsoft is apple"
+    },
+    {
+      "id": 3,
+      "name": "Google",
+      "description": "Google is apple"
+    }
+  ]
+}
