@@ -1,2 +1,3 @@
-# NODEjs
-### 所有NodeJS的知识点都以分支的形式上传，主干中不会有任何内容
+# lesson-grunt
+### Grunt是基于Node.js的项目构建工具
+### 与gulp的作用相同，但是gulp相对操作简单
